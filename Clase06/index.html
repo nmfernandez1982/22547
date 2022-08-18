@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/Estiilo.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+        <h1  >Ingreso de informacion </h1>
+        <h2  >Ingreso de informacion </h2>
+        <h1  >Ingreso de informacion </h1>
+    
+
+        <form action="#" method="post">
+
+             <fieldset>
+                <legend>Nuevo Usuario</legend>
+            <label for="nombre" >Nombre:</label>            
+            <input  type="text" maxlength="10" minlength="2" placeholder="Aqui Nombre" required id="nombre"  name="nombre"  > 
+             <br>
+             <br>   
+            <label for="apellido" >Apellido:</label>            
+            <input  type="text" maxlength="10" minlength="2" placeholder="Aqui Apellido" required id="apellido"  name="apellido" disabled="true" >     
+            <br>
+            <br>
+            <label for="pass" >Password:</label>            
+            <input  type="password" pattern="" maxlength="10" minlength="2" placeholder="Aqui passqord" required id="password"  name="password"  >  
+            <br>
+            <br>
+            <label for="edad" >Edad:</label>            
+            <input  type="number" max="99" min="18" placeholder="Aqui su Edad" required id="edad"  name="edad" value="25" readonly="true"  >     
+            <br>
+            <br>
+            <label for="fnac" >Fecha de Nacimiento:</label>            
+            <input  type="datetime-local" required id="fnac"  name="fnac"   >    
+            <br>
+            <br>
+                <label for="" >Seleccione Autos:</label>
+                <select>
+                    <option value="fiat">Fiat</option>
+                    <option value="renault">Renault</option>
+                    <option value="ford">Ford</option>
+                </select>  
+                <br>
+                <br>
+
+                <label for="" >Seleccione Autos:</label>
+                <select>
+                  <optgroup label="Nacionales">
+                    <option value="fiat">Fiat</option>
+                    <option value="renault">Renault</option>
+                    <option value="ford">Ford</option>
+                  </optgroup>
+
+                  <optgroup label="Importados">
+                    <option value="bmw">BMW</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="farrari">Ferrari</option>
+                  </optgroup>
+                
+                </select>  
+                <br>
+                <br>
+
+             <input type="radio" id="" name="compus" value="Lenovo" >
+             <label for="" >Lenovo</label>   
+             <input type="radio" id="" name="compus" value="Dell" >
+             <label for="" >Dell</label>   
+             <input type="radio" id="" name="compus" value="HP" >
+             <label for="" >hp</label>   
+             <br>
+             <br>
+
+
+
+            <button type="submit">Enviar</button>
+            
+
+             </fieldset>       
+
+
+
+        </form>
+
+
+
+
+    </body>
+</html>
