@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div
+{    
+    height: 200px;
+    width: 100%;
+}
+
+#header
+{
+    background-color: lightblue;
+}
+
+#parrafo
+{
+    background-color: lightpink;
+}
+
+#footer
+{
+    background-color: lightseagreen;
+}
+
+#footer:hover
+{
+    background-color: lightgray;
+   /* height: 100px;
+    width: 50%;*/
+}
+
+p:first-child
+{
+    color: blue;
+}
+
+a:link
+{
+    color: red;
+}
+
+a:visited
+{
+    color:green;
+}
+
+a:active
+{
+    color: darkgoldenrod;
+}
+
+
+/*
+div p
+{
+color: yellow;
+}
+
+div > p
+{
+    color: red;
+}
+
+section ~ p
+{
+    color: crimson;
+}
+*/
+
