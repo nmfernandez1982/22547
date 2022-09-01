@@ -1,0 +1,46 @@
+#cuadro1
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+}
+
+/*
+box sizing:
+El margen y el paddin pasar a formar parte de la caja
+*/
+
+#cuadro2
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border:20px;
+    border-color:green;
+    border-style: solid;
+}
+
+#cuadro3
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border:20px;
+    border-color:green;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+#cuadro4
+{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border:20px;
+    border-color:green;
+    border-style: solid;
+    padding: 10px;
+}
+
