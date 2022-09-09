@@ -1,0 +1,102 @@
+.primario
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: Kprimario;
+    animation-duration: 12s;    
+}
+
+@keyframes Kprimario
+{
+    /*
+    from {background-color: red;}
+    to{background-color: yellow;}
+    */
+    0% {background-color: red;}
+    25% {background-color: orange;}
+    50% {background-color: darkblue;}
+    100% {background-color: darkorchid;}
+}
+
+.secundario
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: Ksecundario;
+    animation-duration: 12s;
+}
+
+@keyframes Ksecundario
+{
+    from {background-color: yellow;}
+    to{background-color: red;}
+}
+
+#caja
+{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    animation-name: caja1;
+    animation-duration: 12s;    
+}
+
+@keyframes caja1
+{
+0%{
+    opacity: 0;
+    transform: scale(1);
+ }
+ 50%{
+    opacity: 0.50;
+    transform: scale(1.16);
+ }
+ 100%{
+    opacity: 1;
+    transform: scale(1);
+ }
+
+
+}
+
+#caja:hover
+{ 
+    background-color: red;
+    animation-delay: 0s;
+    animation-name: caja1;
+    animation-duration: 4s;    
+}
+
+
+
+
+
+.contenedor
+{
+    display: flex;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
+
+img
+{
+    height: 145px;
+    width: 179px;
+   
+}
+
+
+img:hover
+{
+
+    height: 290px;
+    width: 358px;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
