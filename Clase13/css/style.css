@@ -1,0 +1,16 @@
+
+#container
+{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+}
+
+h3{margin-top:10px; text-align: center;}
+
+
+.card
+{
+    margin: 20px;
+    border: 1px solid black;
+}
