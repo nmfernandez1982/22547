@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body >
+
+        <table>
+            <tr>
+                <td>Valor1:</td><td><input type="number" id="valor1"></td>
+            </tr>
+            <tr>
+                <td>Valor2</td><td><input type="number" id="valor2" ></td>
+            </tr>
+            
+            <tr>
+                <td><input type="button" value="calcular" onclick="calcular();" > </td><td><input type="number" id="valor3" ></td>
+            </tr>
+
+        </table>
+
+
+
+
+        <script>
+                console.log("Esto es una funcion");
+                
+                //invoque la funcion.       
+
+                result=sumar(15,30);
+                console.log("El resultado es en el origen : "+result);
+
+
+                //definicion de la funcion.
+                function sumar(valor1,valor2)
+                {
+                    valor3=valor1+valor2;
+                    return valor3;                  
+                    
+                }
+
+
+                function calcular()
+                {
+                 valor1=document.getElementById("valor1").value;   
+                 valor2=document.getElementById("valor2").value;
+                 valor3=(valor1*valor2);
+                 document.getElementById("valor3").value=valor3;  
+
+                }    
+
+                function mostrar()
+                {
+                    alert("Publicidad Cac 2022");
+                }
+
+        </script>
+    
+    </body>
+</html>
